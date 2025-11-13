@@ -152,7 +152,7 @@ main {
   overflow: hidden;
   color: #fff;
   transition: box-shadow 0.3s ease;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .button:focus {
@@ -273,7 +273,7 @@ main {
   transform-origin: center;
 }
 
-.card__like-button  {
+.card__like-button {
   width: 130px;
   height: 38px;
 }
@@ -318,7 +318,7 @@ main {
 .popup__top-row {
   display: flex;
   align-items: center;
-  gap: 20px; 
+  gap: 20px;
 }  
 
 .popup::backdrop {
@@ -333,7 +333,7 @@ main {
 }
 
 .popup__controller {
-  width: 100%;  
+  width: 100%;
 }
 
 .popup__close-button {
