@@ -64,7 +64,7 @@ main {
   flex-direction: column;
   gap: 25px;
   padding: 25px;
-  line-height: 1.2;
+  line-height: 21px;
 }
 
 .card__image-container {
@@ -116,6 +116,7 @@ main {
   opacity: 50%;
   text-shadow: 0 0 1px var(--text-stroke-color);
   text-transform: uppercase;
+  mix-blend-mode: hard-light;
 }
 
 @supports (-webkit-text-stroke: 1px var(--text-stroke-color)) or (text-stroke: 1px var(--text-stroke-color)) {
@@ -187,6 +188,7 @@ main {
   mix-blend-mode: difference;
   z-index: 10;
   text-align: center;
+  text-transform: uppercase;
 }  
 
 .card__icon-button {
@@ -195,13 +197,18 @@ main {
   align-items: center;
   height: 38px;
   border: 2px solid transparent;
-  transition: outline 0.3s ease;
+  transition: border 0.3s ease;
   background-color: transparent;
   padding: 0;
+  cursor: pointer;
+}
+
+.card__icon-button:focus {
+  outline: none;
 }
 
 .card__icon-button:focus-visible {
-  outline: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
 }
 
 .heart {
