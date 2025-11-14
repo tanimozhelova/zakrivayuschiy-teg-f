@@ -188,7 +188,6 @@ main {
   mix-blend-mode: difference;
   z-index: 10;
   text-align: center;
-  text-transform: uppercase;
 }  
 
 .card__icon-button {
